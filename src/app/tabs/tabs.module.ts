@@ -10,6 +10,7 @@ import { TabsPage } from './tabs.page';
 import { ContactPageModule } from '../contact/contact.module';
 import { AboutPageModule } from '../about/about.module';
 import { HomePageModule } from '../home/home.module';
+import {DataService} from '../data.service';
 
 @NgModule({
   imports: [
@@ -21,6 +22,7 @@ import { HomePageModule } from '../home/home.module';
     AboutPageModule,
     ContactPageModule
   ],
-  declarations: [TabsPage]
+    declarations: [TabsPage],
+    providers: [ DataService ],
 })
 export class TabsPageModule {}
