@@ -2,7 +2,7 @@
 
 This is a sample simple todo application using the ionic [v4 beta](https://beta.ionicframework.com/docs/)
 () The sample includes badge which indicates count of tasks and shared service 
-
+v
 The project was generated with [ionic CLI](https://ionicframework.com/docs/cli/)
 
 ## Development server

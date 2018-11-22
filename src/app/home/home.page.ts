@@ -28,7 +28,7 @@ export class HomePage {
          if (index > -1 ) {
              this.todos.splice(index, 1);
          }
-         this.updateData()
+         this.updateData();
     }
 
     updateData() {
